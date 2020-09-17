@@ -44,16 +44,5 @@
 
     </link>
 
-    <gazebo>
-        <plugin filename="libgazebo_ros_force.so" name="gazebo_ros_force">
-            <bodyName>base_link</bodyName>
-            <topicName>cable_rotor_force</topicName>
-        </plugin>
-        <plugin filename="libgazebo_ros_force.so" name="gazebo_ros_force">
-            <bodyName>box_link</bodyName>
-            <topicName>cable_box_force</topicName>
-        </plugin>
-    </gazebo>
-
 </robot>
 
